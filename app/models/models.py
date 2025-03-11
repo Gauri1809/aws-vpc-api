@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from typing import List
 
-# Models for input and output validation
+# Pydantic Models for input and output payload schema validations
 class SubnetConfig(BaseModel):
     name: str
     cidr_block: str
